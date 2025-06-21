@@ -1,5 +1,5 @@
-import React from 'react'
-import { Home, LayoutDashboard, Settings } from 'lucide-react'
+// import React from 'react'
+import { LayoutDashboard, Settings } from 'lucide-react'
 import { Link, linkOptions } from '@tanstack/react-router'
 
 export default function Sidebar() {
@@ -51,11 +51,4 @@ export default function Sidebar() {
   )
 }
 
-function SidebarItem({ icon, label,path }) {
-  return (
-    <div className="flex items-center gap-3 p-3 rounded-md hover:bg-gray-700 cursor-pointer transition-all">
-      {icon}
-      <span>{label}</span>
-    </div>
-  )
-}
+
